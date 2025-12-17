@@ -1,35 +1,41 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+const posts = (await getCollection("blog")).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
 <BaseLayout title="dev-rueda" description="Personal website and blog">
-	<h1>Welcome to dev-rueda</h1>
+	<h1>Welcome! 🙌</h1>
 	<p class="intro">
-		This is my personal corner on the web where I share my thoughts on software development, technology, and learning.
+		This is my personal corner on the web where I share my thoughts on
+		software development, technology, and learning.
 	</p>
 
 	<section class="recent-posts">
 		<h2>Recent Posts</h2>
 		<ul>
-			{posts.map((post) => (
-				<li>
-					<a href={`/dev-rueda/blog/${post.slug}/`}>
-						<span class="title">{post.data.title}</span>
-						<span class="date">
-							{new Date(post.data.pubDate).toLocaleDateString('en-us', {
-								year: 'numeric',
-								month: 'short',
-								day: 'numeric',
-							})}
-						</span>
-					</a>
-				</li>
-			))}
+			{
+				posts.map((post) => (
+					<li>
+						<a href={`/dev-rueda/blog/${post.slug}/`}>
+							<span class="title">{post.data.title}</span>
+							<span class="date">
+								{new Date(post.data.pubDate).toLocaleDateString(
+									"en-us",
+									{
+										year: "numeric",
+										month: "short",
+										day: "numeric",
+									},
+								)}
+							</span>
+						</a>
+					</li>
+				))
+			}
 		</ul>
 	</section>
 </BaseLayout>
