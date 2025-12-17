@@ -1,0 +1,37 @@
+---
+const today = new Date();
+---
+
+<footer>
+  <div class="container">
+    <p>&copy; {today.getFullYear()} dev-rueda. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  footer {
+    border-top: 1px solid var(--color-border);
+    padding: 2rem 0;
+    margin-top: auto;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .socials a {
+    margin-left: 1rem;
+    color: var(--color-text-secondary);
+    border-bottom: none;
+  }
+  .socials a:hover {
+    color: var(--color-accent);
+    border-bottom: 2px solid var(--color-accent);
+  }
+</style>
