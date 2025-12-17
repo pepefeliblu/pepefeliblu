@@ -20,7 +20,7 @@ const posts = (await getCollection("blog")).sort(
 			{
 				posts.map((post) => (
 					<li>
-						<a href={`/dev-rueda/blog/${post.slug}/`}>
+						<a href={`/blog/${post.slug}/`}>
 							<span class="title">{post.data.title}</span>
 							<span class="date">
 								{new Date(post.data.pubDate).toLocaleDateString(
