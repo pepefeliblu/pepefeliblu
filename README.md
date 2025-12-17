@@ -4,7 +4,7 @@
 <p align="center">
   <a href="mailto:dev.rueda@hotmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/dev-rueda/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://pepefeliblu.github.io/dev-rueda/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://pepefeliblu.github.io/pepefeliblu/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
 </p>
 
 ---
@@ -40,7 +40,7 @@ Senior Engineer with **6+ years** of experience. I specialize in migrating legac
 
 ## 🧢 How to Evaluate My Code
 
-Check out **[dev-rueda](https://github.com/pepefeliblu/dev-rueda)** (this repository).
+Check out **[pepefeliblu](https://github.com/pepefeliblu/pepefeliblu)** (this repository).
 *   **Architecture**: Clean component-based structure using **Astro**.
 *   **Performance**: Static generation for near-zero load times.
 *   **Attention to Detail**: Interactive print styles, accessible semantics, and "Moleskine" aesthetic.

@@ -4,10 +4,10 @@ Technical blog and portfolio of Juan Rueda.
 
 ## Main Sections
 
-- [Blog](/dev-rueda) - Technical articles on Frontend, Architecture, and Engineering.
-- [About](/dev-rueda/about) - Professional bio and background.
-- [CV](/dev-rueda/cv) - Curriculum Vitae.
+- [Blog](/pepefeliblu) - Technical articles on Frontend, Architecture, and Engineering.
+- [About](/pepefeliblu/about) - Professional bio and background.
+- [CV](/pepefeliblu/cv) - Curriculum Vitae.
 
 ## Recent Posts
 
-- [Google DevFest Quito](/dev-rueda/blog/google-devfest-quito) - Key takeaways on Data Architecture, Agentic AI, and DDD.
+- [Google DevFest Quito](/pepefeliblu/blog/google-devfest-quito) - Key takeaways on Data Architecture, Agentic AI, and DDD.
