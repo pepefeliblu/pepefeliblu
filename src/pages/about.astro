@@ -1,15 +1,75 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 const pageTitle = "About Me";
 ---
 
-<BaseLayout title={pageTitle} description="About Dev Rueda">
+<BaseLayout title={pageTitle} description="About Juan Rueda">
   <h1>{pageTitle}</h1>
-  <p>
-    Welcome to my personal website. I am a software engineer passionate about clean code and modern web technologies.
-  </p>
-  <p>
-    *(Bio content is missing, please update this page)*
-  </p>
+
+  <div class="bio-content">
+    <p>
+      I am a <strong>Senior Software Engineer and Tech Lead</strong> specializing
+      in scalable web platforms, frontend architecture, and product-driven development.
+      With deep experience across <strong
+        >JavaScript, Angular, NestJS, and cloud-native systems</strong
+      >, I build high-quality software that balances performance, security, and
+      real business impact.
+    </p>
+
+    <p>
+      Throughout my career, I've had the privilege of leading engineering teams
+      and building <strong>fintech and enterprise solutions</strong> that have reached
+      significant business milestones. I focus on long-term maintainability over short-term
+      hacks, valuing clean architecture and developer experience.
+    </p>
+
+    <p>
+      Outside of work, I enjoy exploring new technologies, contributing to open
+      discussions on software architecture, and constantly refining my craft.
+    </p>
+  </div>
 </BaseLayout>
+
+<style>
+  .bio-content {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+  }
+
+  .bio-content p {
+    margin-bottom: 1.5rem;
+  }
+
+  .bio-content h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-text-primary);
+    font-size: 1.5rem;
+  }
+
+  .bio-content h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--color-text-primary);
+  }
+
+  .bio-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .bio-content li {
+    margin-bottom: 0.5rem;
+  }
+
+  .disclaimer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    border-top: 1px dashed var(--color-dot);
+    padding-top: 1rem;
+  }
+</style>
