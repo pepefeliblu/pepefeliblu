@@ -1,0 +1,19 @@
+{
+  "name": "dev-rueda",
+  "type": "module",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.14",
+    "astro": "^5.16.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.1"
+  }
+}

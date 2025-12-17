@@ -1,0 +1,48 @@
+---
+import BaseLayout from './BaseLayout.astro';
+const { title, description, pubDate, tags, author } = Astro.props;
+
+// Formatting date
+const formattedDate = new Date(pubDate).toLocaleDateString('en-us', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={title} description={description}>
+  <article>
+    <div class="prose">
+      <div class="title">
+        <div class="date">{formattedDate}</div>
+        <h1>{title}</h1>
+        <div class="author">By {author}</div>
+        <hr />
+      </div>
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .prose {
+    max-width: 65ch;
+    margin: 0 auto;
+  }
+  .title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .date {
+    margin-bottom: 0.5rem;
+    color: var(--color-text-secondary);
+  }
+  .author {
+      font-size: 0.9em;
+      color: var(--color-text-secondary);
+  }
+  hr {
+      border-top: 1px solid var(--color-border);
+      margin: 2rem 0;
+  }
+</style>

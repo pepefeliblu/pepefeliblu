@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<BaseLayout title="dev-rueda" description="Personal website and blog">
+	<h1>Welcome to dev-rueda</h1>
+	<p class="intro">
+		This is my personal corner on the web where I share my thoughts on software development, technology, and learning.
+	</p>
+
+	<section class="recent-posts">
+		<h2>Recent Posts</h2>
+		<ul>
+			{posts.map((post) => (
+				<li>
+					<a href={`/dev-rueda/blog/${post.slug}/`}>
+						<span class="title">{post.data.title}</span>
+						<span class="date">
+							{new Date(post.data.pubDate).toLocaleDateString('en-us', {
+								year: 'numeric',
+								month: 'short',
+								day: 'numeric',
+							})}
+						</span>
+					</a>
+				</li>
+			))}
+		</ul>
+	</section>
+</BaseLayout>
+
+<style>
+	.intro {
+		margin-bottom: 3rem;
+		font-size: 1.1rem;
+	}
+	.recent-posts ul {
+		list-style: none;
+		padding: 0;
+	}
+	.recent-posts li {
+		margin-bottom: 1rem;
+	}
+	.recent-posts a {
+		display: flex;
+		justify-content: space-between;
+		text-decoration: none;
+		padding: 0.5rem 0;
+		border-bottom: 1px solid transparent;
+	}
+	.recent-posts a:hover {
+		border-bottom-color: var(--color-border);
+	}
+	.recent-posts .title {
+		color: var(--color-accent);
+		font-weight: 500;
+	}
+	.recent-posts .date {
+		color: var(--color-text-secondary);
+		font-size: 0.9em;
+	}
+</style>
