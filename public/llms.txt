@@ -1,0 +1,13 @@
+# Juan Rueda - Senior Software Engineer
+
+Technical blog and portfolio of Juan Rueda.
+
+## Main Sections
+
+- [Blog](/dev-rueda) - Technical articles on Frontend, Architecture, and Engineering.
+- [About](/dev-rueda/about) - Professional bio and background.
+- [CV](/dev-rueda/cv) - Curriculum Vitae.
+
+## Recent Posts
+
+- [Google DevFest Quito](/dev-rueda/blog/google-devfest-quito) - Key takeaways on Data Architecture, Agentic AI, and DDD.
