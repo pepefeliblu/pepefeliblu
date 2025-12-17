@@ -11,7 +11,7 @@ export async function GET(context) {
             title: post.data.title,
             pubDate: post.data.pubDate,
             description: post.data.description,
-            link: `/dev-rueda/blog/${post.slug}/`,
+            link: `/blog/${post.slug}/`,
         })),
     });
 }

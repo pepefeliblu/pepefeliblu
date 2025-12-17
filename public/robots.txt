@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pepefeliblu.github.io/dev-rueda/rss.xml
+Sitemap: https://pepefeliblu.github.io/rss.xml
