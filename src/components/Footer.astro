@@ -1,13 +1,28 @@
 ---
 const today = new Date();
+import { Github, Linkedin } from "lucide-astro";
 ---
 
 <footer>
   <div class="container">
-    <p>&copy; {today.getFullYear()} dev-rueda. All rights reserved.</p>
+    <p>&copy; {today.getFullYear()} pepefeliblu. All rights reserved.</p>
     <div class="socials">
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a
+        href="https://github.com/pepefeliblu"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+      >
+        <Github size={20} />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/dev-rueda/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+      >
+        <Linkedin size={20} />
+      </a>
     </div>
   </div>
 </footer>
@@ -28,10 +43,10 @@ const today = new Date();
   .socials a {
     margin-left: 1rem;
     color: var(--color-text-secondary);
-    border-bottom: none;
+    border-bottom: 2px solid transparent; /* Reserve space */
   }
   .socials a:hover {
     color: var(--color-accent);
-    border-bottom: 2px solid var(--color-accent);
+    border-color: var(--color-accent);
   }
 </style>

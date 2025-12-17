@@ -1,0 +1,407 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
+---
+
+<BaseLayout title="Juan Rueda - CV" description="Senior Full Stack Engineer CV">
+    <div class="cv-controls">
+        <button onclick="window.print()" class="btn-print">
+            <Download size={16} /> Download
+        </button>
+    </div>
+
+    <div class="cv-content">
+        <h1>Juan Rueda</h1>
+        <h3>Senior Full Stack Engineer</h3>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <Mail size={14} class="icon" />
+                <a href="mailto:dev.rueda@hotmail.com" class="contact-link"
+                    >dev.rueda@hotmail.com</a
+                >
+            </div>
+            <span class="separator">•</span>
+            <div class="contact-item">
+                <Phone size={14} class="icon" />
+                <a href="tel:+593998115960" class="contact-link"
+                    >+(593) 998 115 960</a
+                >
+            </div>
+            <span class="separator">•</span>
+            <span
+                ><a
+                    href="https://en.wikipedia.org/wiki/Quito"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link">Quito, Ecuador</a
+                > (Remote)</span
+            >
+            <br />
+            <div class="contact-row-2">
+                <div class="contact-item">
+                    <Linkedin size={14} class="icon" />
+                    <a
+                        href="https://www.linkedin.com/in/dev-rueda/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link">LinkedIn</a
+                    >
+                </div>
+                <span class="separator">•</span>
+                <div class="contact-item">
+                    <Github size={14} class="icon" />
+                    <a
+                        href="https://github.com/pepefeliblu"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link">GitHub</a
+                    >
+                </div>
+            </div>
+        </div>
+
+        <h2>Professional Profile</h2>
+
+        <p>
+            Senior Full Stack Engineer with <strong
+                >6+ years of experience</strong
+            > building scalable web applications using modern frontend and backend
+            technologies. Proven track record <strong
+                >leading multidisciplinary teams</strong
+            > and delivering enterprise solutions using <strong
+                >TypeScript, Angular, .NET, NestJS</strong
+            >, and cloud infrastructure. Passionate about leveraging AI
+            technologies to accelerate development workflows and creating
+            customer-centric software solutions. Experienced in <strong
+                >containerization with Docker</strong
+            > and agile methodologies.
+        </p>
+
+        <h2>Technical Skills</h2>
+
+        <ul>
+            <li>
+                <strong>Frontend</strong>: TypeScript, JavaScript, Angular,
+                React, HTML5, CSS3, SASS/SCSS, Bootstrap, jQuery
+            </li>
+            <li>
+                <strong>Backend</strong>: C#/.NET, Java (Spring Boot), NestJS,
+                Node.js, PHP (Laravel), Python, GraphQL
+            </li>
+            <li>
+                <strong>APIs & Integration</strong>: RESTful APIs, WebSockets,
+                JSON/XML, OAuth, JWT
+            </li>
+            <li>
+                <strong>Databases</strong>: SQL (PostgreSQL, MySQL, MSSQL),
+                NoSQL (MongoDB)
+            </li>
+            <li>
+                <strong>DevOps & Cloud</strong>: Docker, Kubernetes, AWS,
+                GitLab, GitHub, Octopus Deploy, CI/CD pipelines
+            </li>
+            <li>
+                <strong>Tools & Practices</strong>: Git, Graylog, TDD,
+                Agile/Scrum/Kanban, Webpack, Bash, Vim
+            </li>
+            <li>
+                <strong>AI Technologies</strong>: GitHub Copilot, ChatGPT,
+                prompt engineering for development acceleration
+            </li>
+        </ul>
+
+        <h2>Professional Experience</h2>
+
+        <h3>Software Engineer</h3>
+        <p>
+            <strong
+                ><a
+                    href="https://www.bairesdev.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">BairesDev</a
+                ></strong
+            > | Remote, EC | <em>August 2025 - Present</em>
+        </p>
+
+        <ul>
+            <li>
+                Developing full-stack enterprise applications using <strong
+                    >.NET/C# backend</strong
+                > with MSSQL database and <strong>Angular frontend</strong>.
+            </li>
+            <li>
+                Implementing scalable solutions following clean architecture
+                patterns and best practices.
+            </li>
+            <li>
+                Managing deployment pipelines using <strong>GitLab CI/CD</strong
+                > and <strong>Octopus Deploy</strong> for automated releases.
+            </li>
+            <li>
+                Utilizing <strong>Graylog</strong> for centralized logging and application
+                monitoring to ensure system reliability.
+            </li>
+            <li>
+                Collaborating with distributed teams using agile methodologies
+                to deliver customer-focused features.
+            </li>
+        </ul>
+
+        <p>
+            <strong>Technologies</strong>: .NET, C#, MSSQL, Angular, TypeScript,
+            GitLab, Octopus Deploy, Graylog, Docker
+        </p>
+
+        <h3>Senior Developer / Tech Lead</h3>
+        <p>
+            <strong
+                ><a
+                    href="https://3dcal.com/home"
+                    target="_blank"
+                    rel="noopener noreferrer">StickerStoke S.A.S</a
+                ></strong
+            > | Quito, EC | <em>August 2021 - Present</em>
+        </p>
+
+        <ul>
+            <li>
+                <strong>Led a multidisciplinary team of 6 engineers</strong> to architect
+                and develop a web-native design tool from concept to production.
+            </li>
+            <li>
+                Designed and implemented complex full-stack applications using <strong
+                    >Angular and NestJS</strong
+                > with <strong>AWS cloud infrastructure</strong> in a monolithic architecture.
+            </li>
+            <li>
+                Managed <strong>PostgreSQL and MongoDB</strong> databases, implementing
+                efficient data models and query optimization.
+            </li>
+            <li>
+                Fostered a "Results First" culture through agile methodologies
+                (Scrum), reducing developer burnout while improving delivery
+                timelines.
+            </li>
+            <li>
+                Mentored junior developers on code quality, testing practices,
+                and architectural decisions.
+            </li>
+        </ul>
+
+        <p>
+            <strong>Technologies</strong>: Angular, NestJS, TypeScript, AWS,
+            Docker, PostgreSQL, MongoDB, HTML5, SCSS, Git, GitHub, REST APIs,
+            WebSockets, SCRUM, Agile
+        </p>
+
+        <h3>Customer Support Specialist</h3>
+        <p>
+            <strong
+                ><a
+                    href="https://www.optimalworkshop.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">Optimal Workshop</a
+                ></strong
+            > | Wellington, NZ | <em>May 2021 - December 2021</em>
+        </p>
+
+        <ul>
+            <li>
+                Provided technical support for UX/UI design tools, maintaining
+                sub-hour response times for the Eastern Time zone.
+            </li>
+            <li>
+                Developed a strong customer-first mindset by translating user
+                needs into actionable feedback for engineering teams.
+            </li>
+            <li>
+                Gained experience in quality assurance, customer experience
+                (CX), and cybersecurity best practices.
+            </li>
+            <li>
+                Enhanced communication skills working with cross-functional
+                teams across different time zones.
+            </li>
+        </ul>
+
+        <p>
+            <strong>Technologies</strong>: CX, QA, UX, Intercom, Slack, Notion,
+            Design Research
+        </p>
+
+        <h3>Front End Development Lead</h3>
+        <p>
+            <strong
+                ><a
+                    href="https://www.opcionauto.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">OpcionAuto</a
+                ></strong
+            > | Quito, EC | <em>October 2019 - January 2021</em>
+        </p>
+
+        <ul>
+            <li>
+                Led front-end development for a fintech platform using <strong
+                    >Angular10 and Bootstrap4</strong
+                >, contributing to the company's first million dollars in
+                revenue.
+            </li>
+            <li>
+                Implemented <strong>Test-Driven Development (TDD)</strong> and leveraged
+                AWS for infrastructure and data management, enhancing platform reliability.
+            </li>
+            <li>
+                Gained expertise in Scrum and Agile methodologies, KPIs, OKRs,
+                and promoted workplace health and wellness initiatives.
+            </li>
+        </ul>
+
+        <p>
+            <strong>Technologies</strong>: Angular, HTML, SCSS, Typescript, PHP,
+            Laravel, Postgres, AWS, Docker, Terraform, Git, Gitlab, SCRUM, Agile
+        </p>
+
+        <h3>DLAB Manager</h3>
+        <p>
+            <strong
+                ><a
+                    href="https://dlab.usfq.edu.ec/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Universidad San Francisco de Quito</a
+                ></strong
+            > | Quito, EC | <em>September 2018 - August 2019</em>
+        </p>
+
+        <ul>
+            <li>
+                Managed a design laboratory, maintaining machinery and guiding
+                students in proper lab usage at Ecuador’s top university.
+            </li>
+            <li>
+                Gained expertise in additive manufacturing, laser cutting, CNC
+                machining, and IoT technologies using Raspberry Pi and Arduino.
+            </li>
+            <li>
+                Developed and reworked the lab’s web platform, initially in
+                Laravel and later transitioned to WordPress.
+            </li>
+        </ul>
+
+        <p>
+            <strong>Technologies</strong>: Laravel, Wordpress, HTML, CSS,
+            JavaScript, Additive Manufacturing, Inventory Tracking, 3D Printing,
+            CNC Machining
+        </p>
+
+        <h2>Education</h2>
+
+        <p>
+            <strong>Bachelor of Arts in Interactive & Multimedia Design</strong
+            ><br />
+            Universidad San Francisco de Quito (USFQ) | <em>Graduated: 2020</em>
+        </p>
+
+        <h2>Additional Information</h2>
+
+        <p><strong>Languages</strong></p>
+        <ul>
+            <li>Spanish (Native)</li>
+            <li>English (Fluent Written and spoken)</li>
+            <li>Swedish (Basic conversational)</li>
+        </ul>
+
+        <p><strong>Certifications & Awards</strong></p>
+        <ul>
+            <li>Adobe Certified Associate | Adobe | 2017</li>
+            <li>
+                COCOA Awards 2018 | Best Interactive & Multimedia Project
+                (SoundSketch)
+            </li>
+            <li>
+                Quito Startup Weekend 2018 | 3rd Place - Best Startup Project
+                Proposal (NEAR2)
+            </li>
+        </ul>
+    </div>
+</BaseLayout>
+
+<style>
+    .cv-controls {
+        margin-bottom: 2rem;
+        text-align: right;
+    }
+    .btn-print {
+        background-color: var(--color-accent);
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: var(--font-sans);
+        font-weight: 500;
+        font-size: 0.9rem;
+        transition: opacity 0.2s;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .btn-print:hover {
+        opacity: 0.9;
+    }
+
+    .cv-content h1 {
+        margin-bottom: 0.2rem;
+        color: var(--color-text-primary);
+    }
+    .cv-content h3 {
+        margin-top: 0;
+        font-weight: 400;
+        color: var(--color-text-secondary);
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-info {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px dashed var(--color-dot);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--color-text-secondary);
+    }
+
+    .contact-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .contact-row-2 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        width: 100%;
+        margin-top: 0.2rem;
+    }
+
+    .separator {
+        color: inherit;
+    }
+
+    .contact-link {
+        color: inherit;
+        border-bottom: 2px solid transparent;
+        transition: all 0.2s ease;
+    }
+    .contact-link:hover {
+        color: var(--color-accent);
+        border-color: var(--color-accent);
+    }
+
+    /* Print Specific Styles in Global CSS will handle the rest */
+</style>
