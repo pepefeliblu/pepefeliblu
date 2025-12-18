@@ -1,5 +1,5 @@
 ---
-
+import ThemeToggle from "./ThemeToggle.astro";
 ---
 
 <header>
@@ -9,6 +9,7 @@
       <a href="/pepefeliblu/">Home</a>
       <a href="/pepefeliblu/about">About</a>
       <a href="/pepefeliblu/cv">CV</a>
+      <ThemeToggle />
     </div>
   </nav>
 </header>
@@ -29,6 +30,10 @@
     color: var(--color-text-primary);
     text-decoration: none;
     border-bottom: none;
+  }
+  .links {
+    display: flex;
+    align-items: center;
   }
   .links a {
     margin-left: 1.5rem;

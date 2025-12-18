@@ -22,20 +22,18 @@
     --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        /* Moleskine Dark Palette (Dark Charcoal notebook) */
-        --color-bg-primary: #1E1E1E;
-        --color-bg-secondary: #2A2A2A;
-        --color-dot: #333333;
+html.dark {
+    /* Moleskine Dark Palette (Dark Charcoal notebook) */
+    --color-bg-primary: #1E1E1E;
+    --color-bg-secondary: #2A2A2A;
+    --color-dot: #333333;
 
-        --color-text-primary: #E0E0E0;
-        --color-text-secondary: #A0A0A0;
+    --color-text-primary: #E0E0E0;
+    --color-text-secondary: #A0A0A0;
 
-        --color-accent: #FF7F50;
-        /* Coral */
-        --color-border: #333333;
-    }
+    --color-accent: #FF7F50;
+    /* Coral */
+    --color-border: #333333;
 }
 
 html,
