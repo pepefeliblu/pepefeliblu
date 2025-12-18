@@ -5,6 +5,12 @@ import rehypeExternalLinks from 'rehype-external-links';
 export default defineConfig({
     site: 'https://pepefeliblu.github.io',
     base: '/pepefeliblu',
+    compressHTML: true,
+    vite: {
+        build: {
+            minify: true
+        }
+    },
     markdown: {
         rehypePlugins: [
             [rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }]
