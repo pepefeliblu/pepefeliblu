@@ -9,6 +9,15 @@ const posts = (await getCollection("blog")).sort(
 
 <BaseLayout title="dev-rueda" description="Personal website and blog">
 	<h1>Welcome! 🙌</h1>
+
+	<img
+		src="/pepefeliblu/images/site/juan_home_pic.webp"
+		alt="Juan Rueda"
+		width="160"
+		height="160"
+		class="home-avatar"
+	/>
+
 	<p class="intro">
 		This is my personal corner on the web where I share my thoughts on
 		software development, technology, and learning.
@@ -41,6 +50,14 @@ const posts = (await getCollection("blog")).sort(
 </BaseLayout>
 
 <style>
+	img.home-avatar {
+		display: block;
+		width: 160px;
+		height: 160px;
+		object-fit: cover;
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	}
+
 	.intro {
 		margin-bottom: 3rem;
 		font-size: 1.1rem;

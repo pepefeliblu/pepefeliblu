@@ -6,6 +6,11 @@ author: "Juan Rueda"
 tags: ["devfest", "data-engineering", "ai", "ddd", "tech-community"]
 ---
 
+<figure style="text-align: center;">
+    <img src="/pepefeliblu/images/blog/dev_fest_badge.webp" alt="Google DevFest Badge" width="500" style="display: block; margin: 0 auto; border-radius: 10px;" />
+    <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">The volunteer got a bit nervous and skipped the 'n' in my name, so we had to perform a hot-fix and squish it in.</figcaption>
+</figure>
+
 This past month, I attended **[Google DevFest Quito 2025](https://gdg.community.dev/events/details/google-gdg-quito-presents-devfest-ecuador-2025/)** at Universidad San Francisco de Quito. While the event showcased the latest from Google, the real value lay in the architectural discussions that cut through the hype. It wasn't just about tools; it was about strategy.
 
 Here are the key takeaways that are reshaping my perspective on modern engineering.

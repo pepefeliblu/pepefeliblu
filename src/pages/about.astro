@@ -7,34 +7,91 @@ const pageTitle = "About Me";
 <BaseLayout title={pageTitle} description="About Juan Rueda">
   <h1>{pageTitle}</h1>
 
-  <div class="bio-content">
-    <p>
-      I am a <strong>Senior Software Engineer and Tech Lead</strong> specializing
-      in scalable web platforms, frontend architecture, and product-driven development.
-      With deep experience across <strong
-        >JavaScript, Angular, NestJS, and cloud-native systems</strong
-      >, I build high-quality software that balances performance, security, and
-      real business impact.
-    </p>
+  <div class="profile-container">
+    <div class="bio-content">
+      <p>
+        I am a <strong>Senior Software Engineer and Tech Lead</strong> specializing
+        in scalable web platforms, frontend architecture, and product-driven development.
+        With deep experience across <strong
+          >JavaScript, Angular, NestJS, and cloud-native systems</strong
+        >, I build high-quality software that balances performance, security,
+        and real business impact.
+      </p>
 
-    <p>
-      Throughout my career, I've had the privilege of leading engineering teams
-      and building <strong>fintech and enterprise solutions</strong> that have reached
-      significant business milestones. I focus on long-term maintainability over short-term
-      hacks, valuing clean architecture and developer experience.
-    </p>
+      <p>
+        Throughout my career, I've had the privilege of leading engineering
+        teams and building <strong>fintech and enterprise solutions</strong> that
+        have reached significant business milestones. I focus on long-term maintainability
+        over short-term hacks, valuing clean architecture and developer experience.
+      </p>
 
-    <p>
-      Outside of work, I enjoy exploring new technologies, contributing to open
-      discussions on software architecture, and constantly refining my craft.
-    </p>
+      <p>
+        Outside of work, I enjoy exploring new technologies, contributing to
+        open discussions on software architecture, and constantly refining my
+        craft.
+      </p>
+    </div>
+
+    <div class="profile-image-wrapper">
+      <img
+        src="/pepefeliblu/images/site/juan_rueda_profile_pic.webp"
+        alt="Juan Rueda"
+        class="profile-image"
+        width="300"
+        height="400"
+      />
+    </div>
   </div>
 </BaseLayout>
 
 <style>
+  .profile-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    .profile-container {
+      display: grid;
+      grid-template-columns: 1fr 250px;
+      align-items: start;
+      gap: 3.5rem;
+    }
+  }
+
+  .profile-image-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .profile-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2);
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+
+  .profile-image:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (min-width: 768px) {
+    .profile-image {
+      max-width: 100%;
+    }
+  }
+
   .bio-content {
-    font-size: 1.05rem;
-    line-height: 1.7;
+    font-size: 1.1rem;
+    line-height: 1.8;
     color: var(--color-text-secondary);
   }
 
@@ -43,7 +100,7 @@ const pageTitle = "About Me";
   }
 
   .bio-content h2 {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     color: var(--color-text-primary);
     font-size: 1.5rem;
