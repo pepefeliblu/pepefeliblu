@@ -1,12 +1,14 @@
 ---
 const today = new Date();
 import { Github, Linkedin } from "lucide-astro";
+import { version } from "../../package.json";
 ---
 
 <footer>
   <div class="container">
     <p>&copy; {today.getFullYear()} pepefeliblu. All rights reserved.</p>
     <div class="socials">
+      <span class="version">v{version}</span>
       <a
         href="https://github.com/pepefeliblu"
         target="_blank"
@@ -39,6 +41,16 @@ import { Github, Linkedin } from "lucide-astro";
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .socials {
+    display: flex;
+    align-items: center;
+  }
+  .version {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    opacity: 0.7;
+    margin-right: 0.5rem;
   }
   .socials a {
     margin-left: 1rem;
