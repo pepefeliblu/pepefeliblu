@@ -44,7 +44,7 @@ We are moving past the era of simple chatbots into **Agentic AI**—systems with
 Erick Wendel demonstrated that the web is evolving. With [Chrome's built-in AI APIs](https://developer.chrome.com/docs/ai/built-in), we can run LLMs locally. This solves two massive problems: **Privacy** (data never leaves the device) and **Cost** (no per-token fees).
 
 ### Small Language Models (SLMs)
-The future is likely **Small Language Models**. They are operational, cost-effective, and fast. While they struggle with the $O(n^2)$ complexity of transformers, for specific tasks, they blow massive models out of the water in terms of ROI.
+The future is likely **Small Language Models**. They are operational, cost-effective, and fast. While they struggle with the O(n^2) complexity of transformers, for specific tasks, they blow massive models out of the water in terms of ROI.
 
 *Other notables: [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) for standardizing tool access, and [llms.txt](https://llmstxt.org/) as the new `robots.txt` for AI crawlers.*
 
