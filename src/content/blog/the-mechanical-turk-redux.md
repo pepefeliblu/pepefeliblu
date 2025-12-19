@@ -2,6 +2,7 @@
 title: "The Mechanical Turk Redux: Why Your AI Assistant Carries a Wand"
 description: "Why do so many AI tools use mystical imagery? From the original 18th-century illusion to today's LLMs, we explore the theatrical side of artificial intelligence."
 pubDate: 2025-12-19
+author: "Juan Rueda"
 tags: ["ai", "llm", "mechanical-turk", "history", "skepticism"]
 ---
 
