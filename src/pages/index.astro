@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { ChristmasSnowfall } from "../components/ChristmasSnowfall";
 
 const posts = (await getCollection("blog")).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -15,7 +16,17 @@ const posts = (await getCollection("blog")).sort(
 		alt="Juan Rueda"
 		width="160"
 		height="160"
-		class="home-avatar"
+		alt="Juan Rueda"
+		width="160"
+		height="160"
+		class="home-avatar normal"
+	/>
+	<img
+		src="/pepefeliblu/images/site/xmas/juan_home_pic.webp"
+		alt="Juan Rueda Christmas"
+		width="160"
+		height="160"
+		class="home-avatar christmas"
 	/>
 
 	<p class="intro">
@@ -47,6 +58,7 @@ const posts = (await getCollection("blog")).sort(
 			}
 		</ul>
 	</section>
+	<ChristmasSnowfall client:only="react" />
 </BaseLayout>
 
 <style>
@@ -55,7 +67,17 @@ const posts = (await getCollection("blog")).sort(
 		width: 160px;
 		height: 160px;
 		object-fit: cover;
+		object-fit: cover;
 		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	}
+	:global(.christmas-mode) .home-avatar.normal {
+		display: none;
+	}
+	.home-avatar.christmas {
+		display: none;
+	}
+	:global(.christmas-mode) .home-avatar.christmas {
+		display: block;
 	}
 
 	.intro {
