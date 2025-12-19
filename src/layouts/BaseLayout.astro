@@ -50,6 +50,16 @@ import Footer from "../components/Footer.astro";
       } else {
         document.documentElement.classList.remove("dark");
       }
+
+      const currentDate = new Date();
+      // month is 0-indexed, 11 is December
+      if (
+        currentDate.getMonth() === 11 &&
+        currentDate.getDate() >= 15 &&
+        currentDate.getDate() <= 25
+      ) {
+        document.documentElement.classList.add("christmas-mode");
+      }
     </script>
   </head>
   <body>
