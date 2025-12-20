@@ -81,3 +81,7 @@ But there's wisdom in recognizing when a solution that seems "wrong" by the book
 The craft isn't just in knowing the patterns. It's in knowing when to apply them, when to adapt them, and when to ignore them entirely.
 
 After all, there are many ways to kill a mockingbird. The best way depends on what you're actually trying to accomplish.
+
+---
+
+*The map is not the territory. In the end, our job isn't to follow patterns, but to solve problems.*
