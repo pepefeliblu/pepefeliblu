@@ -10,4 +10,6 @@ Technical blog and portfolio of Juan Rueda.
 
 ## Recent Posts
 
-- [Google DevFest Quito](/pepefeliblu/blog/google-devfest-quito) - Key takeaways on Data Architecture, Agentic AI, and DDD.
+- [The Mechanical Turk Redux: Why Your AI Assistant Carries a Wand](/pepefeliblu/blog/the-mechanical-turk-redux) - Why do so many AI tools use mystical imagery? From the original 18th-century illusion to today's LLMs, we explore the theatrical side of artificial intelligence.
+- [The Pragmatist's Dilemma: When 'Wrong' Solutions Work Better](/pepefeliblu/blog/the-pragmatists-dilemma) - Why 'inefficient' solutions like Base64 uploads and code-first templates can sometimes be the right choice for maintainability.
+- [Google DevFest Quito: A Journey into Modern Engineering](/pepefeliblu/blog/google-devfest-quito) - Key takeaways on Data Architecture, Agentic AI, and Domain-Driven Design from GDG DevFest.
