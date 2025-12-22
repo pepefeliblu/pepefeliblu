@@ -91,7 +91,7 @@ Keep it professional and minimal.
 * Set up routing for blog posts
 * Add example content (1 blog post, 1 CV page)
 * Configure GitHub Actions for automatic deployment
-* Ensure the site builds correctly with `npm run build`
+* Ensure the site builds correctly with `pnpm run build`
 
 Do NOT add unnecessary libraries, analytics, CMS tools, or ads.
 Favor clarity, simplicity, and long-term maintainability.

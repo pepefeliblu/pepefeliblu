@@ -4,6 +4,7 @@ description: "Why do so many AI tools use mystical imagery? From the original 18
 pubDate: 2025-12-19
 author: "Juan Rueda"
 tags: ["ai", "llm", "mechanical-turk", "history", "skepticism"]
+image: "/pepefeliblu/images/blog/mechanical-turk.webp"
 ---
 
 <figure style="text-align: center;">
