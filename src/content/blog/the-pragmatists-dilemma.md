@@ -4,6 +4,7 @@ pubDate: 2025-12-17
 description: "Why 'inefficient' solutions like Base64 uploads and code-first templates can sometimes be the right choice for maintainability."
 author: "Juan Rueda"
 tags: ["engineering", "pragmatism", "maintainability", "architecture"]
+image: "/pepefeliblu/images/blog/pragmatism_vs_purism.webp"
 ---
 
 

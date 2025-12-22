@@ -4,6 +4,7 @@ pubDate: 2024-12-16
 description: "Key takeaways on Data Architecture, Agentic AI, and Domain-Driven Design from GDG DevFest."
 author: "Juan Rueda"
 tags: ["devfest", "data-engineering", "ai", "ddd", "tech-community"]
+image: "/pepefeliblu/images/blog/dev_fest_badge.webp"
 ---
 
 <figure style="text-align: center;">
