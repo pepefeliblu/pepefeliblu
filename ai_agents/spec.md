@@ -24,12 +24,13 @@ You are a senior frontend engineer setting up a **personal website repository** 
 ## Constraints
 
 * Use **Astro** as the static site generator
+* Use **pnpm** as the package manager
+* Use **Semantic Versioning** for versioning
 * Content must be **Markdown-first**
 * No backend, no database
 * Hosting target: **GitHub Pages**
 * Deployment via **GitHub Actions**
 * Editing workflow must support:
-
   * Local Markdown editors (e.g. Obsidian)
   * GitHub web editing
 * Keep everything lightweight and dependency-minimal
