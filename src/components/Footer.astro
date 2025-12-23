@@ -1,6 +1,6 @@
 ---
 const today = new Date();
-import { Github, Linkedin } from "lucide-astro";
+import { Github, Linkedin, Rss } from "lucide-astro";
 import { version } from "../../package.json";
 ---
 
@@ -24,6 +24,9 @@ import { version } from "../../package.json";
         aria-label="LinkedIn"
       >
         <Linkedin size={20} />
+      </a>
+      <a href="/pepefeliblu/rss.xml" target="_blank" aria-label="RSS Feed">
+        <Rss size={20} />
       </a>
     </div>
   </div>
