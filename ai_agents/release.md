@@ -3,8 +3,13 @@
 We use [bumpp](https://github.com/antfu/bumpp) to handle semantic versioning, git tagging, and changelog generation interactively.
 
 ## Release Process
-
-To cut a new release, run the following command in your terminal:
+    
+1.  **Ensure a clean state**: Make sure all your changes are committed. The release command will create a new commit for the version bump, so your working directory should be clean (or at least free of changes you intend to include in the release).
+    ```bash
+    git add .
+    git commit -m "feat: your features"
+    ```
+2.  **Run the release command**: Run the following command in your terminal:
 
 ```bash
 pnpm release
@@ -15,6 +20,19 @@ This will launch an interactive wizard that will guide you through:
 2.  **Confirming changes**: Review the file changes (package.json version bump).
 3.  **Git Tagging**: Automatically create a git tag for the release.
 4.  **Pushing**: Push the new version and tag to the remote repository.
+
+> [!CAUTION]
+> **Do NOT use non-interactive flags** (like `--yes`, `-y`, or `--all`) when running the release command.
+> Always manually inspect the "Confirming changes" step to ensure `package.json` is being updated. If `package.json` is not listed in the changes, abort the release.
+
+## Verification
+
+After the release is complete, verify that the `package.json` version matches the new git tag:
+
+```bash
+cat package.json | grep version
+git describe --tags
+```
 
 ## Semantic Versioning Rules
 
