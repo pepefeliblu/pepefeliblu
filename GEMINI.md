@@ -16,3 +16,4 @@ This file serves as the central context router for AI agents working on the `pep
 *   **[Writing Blog Posts](ai_agents/blog.md)**: Blueprint, structure, and writing rules for new blog entries.
 *   **[Updating README](ai_agents/readme.md)**: Guidelines for maintaining a high-signal GitHub profile README.
 *   **[SEO Guidelines](ai_agents/seo.md)**: Canonical rules for URL strategy, metadata, and crawl control.
+*   **[Release Guidelines](ai_agents/release.md)**: Semantic versioning rules and release process using `bumpp`.
