@@ -8,6 +8,7 @@ const blog = defineCollection({
         description: z.string(),
         author: z.string().default('Anonymous'),
         tags: z.array(z.string()),
+        image: z.string().optional(),
     }),
 });
 
