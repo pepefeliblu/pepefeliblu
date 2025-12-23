@@ -1,13 +1,14 @@
 {
   "name": "pepefeliblu",
   "type": "module",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "license": "UNLICENSED",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "release": "bumpp"
   },
   "dependencies": {
     "@astrojs/react": "^4.4.2",
