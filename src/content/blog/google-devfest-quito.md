@@ -5,6 +5,8 @@ description: "Key takeaways on Data Architecture, Agentic AI, and Domain-Driven 
 author: "Juan Rueda"
 tags: ["devfest", "data-engineering", "ai", "ddd", "tech-community"]
 image: "/pepefeliblu/images/blog/dev_fest_badge.webp"
+published: true
+canonical_url: "https://pepefeliblu.github.io/pepefeliblu/blog/google-devfest-quito"
 ---
 
 <figure style="text-align: center;">

@@ -5,6 +5,8 @@ description: "Why 'inefficient' solutions like Base64 uploads and code-first tem
 author: "Juan Rueda"
 tags: ["engineering", "pragmatism", "maintainability", "architecture"]
 image: "/pepefeliblu/images/blog/pragmatism_vs_purism.webp"
+published: true
+canonical_url: "https://pepefeliblu.github.io/pepefeliblu/blog/the-pragmatists-dilemma"
 ---
 
 
