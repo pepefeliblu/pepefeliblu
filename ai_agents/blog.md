@@ -4,6 +4,8 @@ This file outlines the definitive blueprint for building final blog entries. Fol
 
 ## 1. Frontmatter
 Always use this exact structure. `author` is fixed.
+> [!IMPORTANT]
+> The block **MUST** start with `---` on the very first line of the file.
 
 ```yaml
 ---
@@ -19,6 +21,8 @@ tags: ["relevant", "tags", "kebab-case"]
 - **Placement**: Immediately after frontmatter.
 - **Structure**: `<figure>` with `style="text-align: center;"`.
 - **Image**: `<img>` tags should be adjusted to fit the specific image provided. Common defaults are `width="500"`, `border-radius: 10px`, and `display: block; margin: 0 auto;`, but these are not mandatory. Please analyze the image for optimal fit and sizing.
+  > [!WARNING]
+  > **Verification Required**: You MUST verify that the image path exists in the filesystem (triggers a 200 OK) before referencing it. Use local paths (e.g., `/pepefeliblu/images/blog/...`).
 - **Caption**: `<figcaption>` with `font-size: 0.9em; color: #666;`.
 - **Content Constraint**: The caption **MUST** be quirky and engaging (an "appetizer").
 - **Example**:
@@ -57,7 +61,10 @@ Use the structure of the *Google DevFest Quito* post as the absolute standard.
 ### D. Footer
 - End the post with a horizontal rule `---`.
 - Follow with a final italicized **closing note**.
-- **Constraint**: This note should leave room for reflection or inspire the reader. It should not just be a dry acknowledgement (unless strictly necessary).
+- **Constraint**: This note should leave room for reflection or inspire the reader.
+  > [!CAUTION]
+  > **No Engagement Bait**. "What do you think?" questions are strictly prohibited.
+  > **Exception**: For event analyses, a brief, reflective acknowledgment to organizers is allowed.
 - Example:
   ```markdown
   ---
@@ -69,7 +76,11 @@ Use the structure of the *Google DevFest Quito* post as the absolute standard.
 - **No Em-Dashes**: Never use "—" or "–" to separate clauses. Use periods or commas.
 - **Author**: Always "Juan Rueda". Unless otherwise specified direcly in the blog entry.
 - **Fact-Checking**: You are responsible for scanning the input text for false claims and correcting them.
-- **SEO & Trust**: Always add useful resource links (Wikipedia, Docs, Official sites) to concepts and terminology.
+- **SEO & Trust**: Always add useful resource links.
+  - **Products**: Link to **Wikipedia**, NOT the product home page for consumer goods (e.g., Nintendo Switch).
+  - **Developer Tools**: Official documentation or project homepages (e.g., Python.org, Terraform.io) are **ALLOWED** and encouraged.
+  - **Claims/Facts**: Link to reputable **News** (BBC, Guardian) or **Academic Sources** (Arxiv, MDPI).
+  - **Validation**: **MANDATORY**: Verify all links are reachable (200 OK). Do not guess URLs.
 
 ## 5. Post-Publication Requirements
 - **Update `llms.txt`**: After creating a new blog post, you **MUST** update `public/llms.txt`.
@@ -104,5 +115,5 @@ Content...
 
 ---
 
-*Final italicized cleanup or thanks.*
+*In a digital world, the most radical act of rebellion is to remain analog.*
 ```
