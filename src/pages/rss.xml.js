@@ -17,10 +17,12 @@ export async function GET(context) {
             title: post.data.title,
             pubDate: post.data.pubDate,
             description: post.data.description,
+            categories: post.data.tags,
             link: `/pepefeliblu/blog/${post.slug}/`,
             content: sanitizeHtml(parser.render(post.body), {
                 allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'figure', 'figcaption'])
             }),
+            customData: `<published>${post.data.published ?? true}</published>`,
         })),
     });
 }
