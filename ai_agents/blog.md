@@ -14,6 +14,8 @@ pubDate: YYYY-MM-DD
 description: "Insert engaging description here"
 author: "Juan Rueda"
 tags: ["relevant", "tags", "kebab-case"]
+published: true # Optional: defaults to true if omitted, set to false to draft
+canonical_url: "https://pepefeliblu.github.io/pepefeliblu/blog/slug" # Optional: strictly for dev.to or cross-posting
 ---
 ```
 

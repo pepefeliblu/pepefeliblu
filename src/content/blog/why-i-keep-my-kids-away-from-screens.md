@@ -5,6 +5,8 @@ description: "A tech worker's perspective on raising children in a digital age, 
 author: "Juan Rueda"
 tags: ["parenting", "digital-minimalism", "tech-life-balance", "future-skills"]
 image: "/pepefeliblu/images/blog/children_against_tech.webp"
+published: true
+canonical_url: "https://pepefeliblu.github.io/pepefeliblu/blog/why-i-keep-my-kids-away-from-screens"
 ---
 
 <figure style="text-align: center;">

@@ -5,6 +5,8 @@ pubDate: 2025-12-19
 author: "Juan Rueda"
 tags: ["ai", "llm", "mechanical-turk", "history", "skepticism"]
 image: "/pepefeliblu/images/blog/mechanical-turk.webp"
+published: true
+canonical_url: "https://pepefeliblu.github.io/pepefeliblu/blog/the-mechanical-turk-redux"
 ---
 
 <figure style="text-align: center;">
