@@ -39,7 +39,7 @@ Crucially, **Kimball modeling** remains the gold standard for structuring this "
 
 *Speakers: [Braulio Otavalo](https://botavalo.com) & [Erick Wendel](https://ew.academy/)*
 
-We are moving past the era of simple chatbots into **Agentic AI**—systems with memory, reasoning, and tool access. But the most interesting shift isn't in the cloud; it's in the browser.
+We are moving past the era of simple chatbots into **Agentic AI**, systems with memory, reasoning, and tool access. But the most interesting shift isn't in the cloud; it's in the browser.
 
 ### The Browser as an AI Runtime
 Erick Wendel demonstrated that the web is evolving. With [Chrome's built-in AI APIs](https://developer.chrome.com/docs/ai/built-in), we can run LLMs locally. This solves two massive problems: **Privacy** (data never leaves the device) and **Cost** (no per-token fees).

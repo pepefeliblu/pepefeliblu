@@ -48,7 +48,7 @@ Soon, even your milk carton might have more computing power than the Apollo miss
 
 This is why developing a certain kind of literacy, let's call it "AI skepticism", is more critical than ever. We need to see through the illusion, to understand the Mechanical Turk for what it is: impressive mechanics, not genuine intelligence.
 
-The mystical imagery—the wands, the crystal balls, the magical branding—isn't accidental. It's the modern equivalent of the Turk's Ottoman robes and ornate cabinet: theatrical dressing designed to make the technology feel more capable, more mysterious, more *intelligent* than it actually is.
+The mystical imagery, the wands, the crystal balls, the magical branding, isn't accidental. It's the modern equivalent of the Turk's Ottoman robes and ornate cabinet: theatrical dressing designed to make the technology feel more capable, more mysterious, more *intelligent* than it actually is.
 
 ## What Makes Us Human
 
