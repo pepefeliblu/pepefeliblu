@@ -51,6 +51,8 @@ Use the structure of the *Google DevFest Quito* post as the absolute standard.
 - Format: `*Speaker: [Name](URL)*` or `*Source: [Name](URL)*`
 - All sources must be **reliable** and **up-to-date**.
 - Is **crucial** to validate the source of the information and check for **linkrot**.
+- Prioritize **reputable** sources over **personal** or **anonymous** sources.
+- Use **free** and **open-source** resources when possible before using paid resources.
 
 ### D. Footer
 - End the post with a horizontal rule `---`.
