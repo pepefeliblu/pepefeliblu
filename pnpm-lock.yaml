@@ -26,6 +26,9 @@ importers:
       astro:
         specifier: ^5.16.5
         version: 5.16.5(@types/node@25.0.1)(jiti@2.6.1)(rollup@4.53.3)(typescript@5.9.3)(yaml@2.8.2)
+      fireworks-js:
+        specifier: ^2.10.8
+        version: 2.10.8
       lucide-astro:
         specifier: ^0.556.0
         version: 0.556.0(astro@5.16.5(@types/node@25.0.1)(jiti@2.6.1)(rollup@4.53.3)(typescript@5.9.3)(yaml@2.8.2))
@@ -1042,6 +1045,9 @@ packages:
     peerDependenciesMeta:
       picomatch:
         optional: true
+
+  fireworks-js@2.10.8:
+    resolution: {integrity: sha512-UZNxeJvRmQzLisN4iriWXqKojG9TDJqc0dPmkUw0/+AEQQ3w8z1Jx2YdFSiBGSVb/u4dPTQXU109GMVblzhfpg==}
 
   flattie@1.1.1:
     resolution: {integrity: sha512-9UbaD6XdAL97+k/n+N7JwX46K/M6Zc6KcFYskrYL8wbBV/Uyk0CTAMY0VT+qiK5PM7AIc9aTWYtq65U7T+aCNQ==}
@@ -2911,6 +2917,8 @@ snapshots:
   fdir@6.5.0(picomatch@4.0.3):
     optionalDependencies:
       picomatch: 4.0.3
+
+  fireworks-js@2.10.8: {}
 
   flattie@1.1.1: {}
 

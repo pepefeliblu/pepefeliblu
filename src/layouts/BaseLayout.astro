@@ -83,15 +83,13 @@ const socialImageURL = new URL(
       } else {
         document.documentElement.classList.remove("dark");
       }
+    </script>
+    <script>
+      import { getHolidayMode, HolidayMode } from "../utils/holidayManager";
 
-      const currentDate = new Date();
-      // month is 0-indexed, 11 is December
-      if (
-        currentDate.getMonth() === 11 &&
-        currentDate.getDate() >= 15 &&
-        currentDate.getDate() <= 25
-      ) {
-        document.documentElement.classList.add("christmas-mode");
+      const mode = getHolidayMode();
+      if (mode !== HolidayMode.None) {
+        document.documentElement.classList.add(mode);
       }
     </script>
   </head>
