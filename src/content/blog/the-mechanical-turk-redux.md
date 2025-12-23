@@ -58,7 +58,7 @@ In this AI-saturated future, our uniquely human capabilities become not just val
 
 **Deduction**: The capacity to reason from first principles, to spot logical fallacies that pattern-matching might miss.
 
-**Intuition**: That ineffable "[gut feeling](https://hbr.org/2022/05/when-its-safe-to-rely-on-intuition-and-when-its-not)" that something is off, even when the surface looks perfect. The kind of knowing that comes from lived experience, not statistical correlations.
+**Intuition**: That ineffable "[gut feeling](https://hbr.org/2015/04/when-its-safe-to-rely-on-intuition-and-when-its-not)" that something is off, even when the surface looks perfect. The kind of knowing that comes from lived experience, not statistical correlations.
 
 No machine will possess true intuition until we figure out how to give them actual guts. And I mean that both literally and figuratively (though I'm not holding my breath for biological AI anytime soon).
 
