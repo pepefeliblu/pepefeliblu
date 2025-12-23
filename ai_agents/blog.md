@@ -49,6 +49,8 @@ Use the structure of the *Google DevFest Quito* post as the absolute standard.
 ### C. Attributions
 - If referencing a talk, idea, or specific person, use the "Speaker/Source" line format immediately under the H2.
 - Format: `*Speaker: [Name](URL)*` or `*Source: [Name](URL)*`
+- All sources must be **reliable** and **up-to-date**.
+- Is **crucial** to validate the source of the information and check for **linkrot**.
 
 ### D. Footer
 - End the post with a horizontal rule `---`.
