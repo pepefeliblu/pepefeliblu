@@ -10,9 +10,9 @@
 ---
 
 ## ⚡ TL;DR
-Senior Engineer with **6+ years** of experience. I specialize in migrating legacy systems to modern architectures and building scalable fintech/enterprise platforms.
-*   **Builder**: Architect complex full-stack systems (3D tools, Fintech).
-*   **Outcomes**: Contributed to **$1M+ revenue** (OpcionAuto) & reduced developer burnout (StickerStoke).
+Senior Engineer with **6+ years** of experience building scalable enterprise and fintech platforms.
+*   **Builder**: Architect complex full-stack systems and managed **6 engineers** (StickerStoke).
+*   **Impact**: Contributed directly to **$1M+ USD revenue** (OpcionAuto) through UX/UI overhauls.
 *   **Focus**: Angular, NestJS, .NET, Clean Architecture.
 
 ---
@@ -32,9 +32,9 @@ Senior Engineer with **6+ years** of experience. I specialize in migrating legac
 
 | Project | Description | Outcome / Impact |
 | :--- | :--- | :--- |
-| **StickerStoke** | Web-native design tool & manufacturing system. | Managed **6 engineers**; delivered a complex monolithic arch handling high-performance UI. |
-| **OpcionAuto** | High-traffic fintech platform (Angular/Bootstrap). | UX overhaul directly contributed to the company's first **$1M USD revenue**. |
-| **USFQ DLAB** | Lab management system (Laravel/IoT). | Automated inventory & machine access for hundreds of university students. |
+| **StickerStoke** | Web-native design tool & manufacturing system (Monolithic Arch). | Managed **6 engineers**; reduced developer burnout while delivering high-performance UI. |
+| **OpcionAuto** | High-traffic fintech platform for automotive financing. | UX overhaul directly contributed to the company's first **$1M USD revenue**. |
+| **USFQ DLAB** | Lab management system (IoT/Inventory). | Automated inventory & machine access for hundreds of university students. |
 
 ---
 
