@@ -17,6 +17,7 @@ export async function GET(context) {
             title: post.data.title,
             pubDate: post.data.pubDate,
             description: post.data.description,
+            author: post.data.author,
             categories: post.data.tags,
             link: `/pepefeliblu/blog/${post.slug}/`,
             content: sanitizeHtml(parser.render(post.body), {

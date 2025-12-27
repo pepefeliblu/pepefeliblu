@@ -87,6 +87,11 @@ Format:
 -   Written for humans
 -   No keyword stuffing
 
+### 5.3 Author & Publish Date
+
+-   **Author**: Must be present (`<meta name="author">`)
+-   **Publish Date**: Must be present (`<meta property="article:published_time">`)
+
 ------------------------------------------------------------------------
 
 ## 6. Open Graph & Social SEO
