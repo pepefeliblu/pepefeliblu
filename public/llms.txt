@@ -10,6 +10,7 @@ Technical blog and portfolio of Juan Rueda.
 
 ## Recent Posts
 
+- [From Startup CTO to Enterprise Tech Lead: What I Learned About Leadership](/pepefeliblu/blog/startup-cto-to-tech-lead) - A personal reflection on the transition from a startup CTO role to an enterprise Tech Lead, exploring the true meaning of technical leadership.
 - [Why I Keep My Kids Away From Screens (Even Though I Work in Tech)](/pepefeliblu/blog/why-i-keep-my-kids-away-from-screens) - A tech worker's perspective on raising children in a digital age, focusing on the benefits of boredom and analog play.
 - [The Mechanical Turk Redux: Why Your AI Assistant Carries a Wand](/pepefeliblu/blog/the-mechanical-turk-redux) - Why do so many AI tools use mystical imagery? From the original 18th-century illusion to today's LLMs, we explore the theatrical side of artificial intelligence.
 - [The Pragmatist's Dilemma: When 'Wrong' Solutions Work Better](/pepefeliblu/blog/the-pragmatists-dilemma) - Why 'inefficient' solutions like Base64 uploads and code-first templates can sometimes be the right choice for maintainability.
