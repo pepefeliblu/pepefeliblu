@@ -13,7 +13,7 @@ This file serves as the central context router for AI agents working on the `pep
 *   **[Style Guide](ai_agents/style.md)**: "Digital Moleskine" philosophy, color palette, typography, and UI elements.
 
 ## 4. Workflows & Guidelines
-*   **[Writing Blog Posts](ai_agents/blog.md)**: Blueprint, structure, and writing rules for new blog entries.
+*   **[Writing Blog Posts](ai_agents/blog.md)**: Blueprint, structure, metadata (Author/Date), and writing rules for new blog entries.
 *   **[Updating README](ai_agents/readme.md)**: Guidelines for maintaining a high-signal GitHub profile README.
-*   **[SEO Guidelines](ai_agents/seo.md)**: Canonical rules for URL strategy, metadata, and crawl control.
+*   **[SEO Guidelines](ai_agents/seo.md)**: Canonical rules for URL strategy, metadata (Author/Date), and crawl control.
 *   **[Release Guidelines](ai_agents/release.md)**: Semantic versioning rules and release process using `bumpp`.

@@ -18,6 +18,9 @@ published: true # Optional: defaults to true if omitted, set to false to draft
 canonical_url: "https://pepefeliblu.github.io/pepefeliblu/blog/slug" # Optional: strictly for dev.to or cross-posting
 ---
 ```
+> [!NOTE]
+> `author` and `pubDate` are automatically mapped to `<meta name="author">` and `<meta property="article:published_time">` respectively, as per [SEO Guidelines](seo.md).
+
 
 ## 2. Visual Hook (The Cover)
 - **Placement**: Immediately after frontmatter.
