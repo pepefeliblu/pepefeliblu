@@ -3,16 +3,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
 ---
 
-<BaseLayout title="Juan Rueda - CV" description="Senior Full Stack Engineer CV">
+<BaseLayout title="Juan Rueda - CV" description="Software Engineer CV">
     <div class="cv-controls">
         <button onclick="window.print()" class="btn-print">
-            <Download size={16} /> Download
+            <Download size={16} />
+            Download
         </button>
     </div>
 
     <div class="cv-content">
         <h1>Juan Rueda</h1>
-        <h3>Senior Full Stack Engineer</h3>
+        <h3>Software Engineer</h3>
 
         <div class="contact-info">
             <div class="contact-item">
@@ -64,12 +65,10 @@ import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
         <h2>Professional Profile</h2>
 
         <p>
-            Senior Full Stack Engineer with <strong
-                >6+ years of experience</strong
-            > building scalable web applications using modern frontend and backend
-            technologies. Proven track record <strong
-                >leading multidisciplinary teams</strong
-            > and delivering enterprise solutions using <strong
+            Software Engineer with <strong>6+ years of experience</strong> building
+            scalable web applications using modern frontend and backend technologies.
+            Proven track record <strong>leading multidisciplinary teams</strong> and
+            delivering enterprise solutions using <strong
                 >TypeScript, Angular, .NET, NestJS</strong
             >, and cloud infrastructure. Passionate about leveraging AI
             technologies to accelerate development workflows and creating
@@ -99,7 +98,7 @@ import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
             </li>
             <li>
                 <strong>DevOps & Cloud</strong>: Docker, Kubernetes, AWS,
-                GitLab, GitHub, Octopus Deploy, CI/CD pipelines
+                GitLab, GitHub, Octopus Deploy, CI/CD pipelines, Databricks
             </li>
             <li>
                 <strong>Tools & Practices</strong>: Git, Graylog, TDD,
@@ -107,7 +106,8 @@ import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
             </li>
             <li>
                 <strong>AI Technologies</strong>: GitHub Copilot, ChatGPT,
-                prompt engineering for development acceleration
+                Claude, Gemini, MCPs for prompt engineering and development
+                acceleration
             </li>
         </ul>
 
@@ -126,31 +126,39 @@ import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
 
         <ul>
             <li>
-                Developing full-stack enterprise applications using <strong
-                    >.NET/C# backend</strong
-                > with MSSQL database and <strong>Angular frontend</strong>.
+                Develop and own enterprise full-stack solutions using <strong
+                    >.NET/C#</strong
+                >, <strong>MS SQL Server</strong>, and <strong>Angular</strong>,
+                applying Clean Architecture and best practices for scalability
+                and maintainability.
             </li>
             <li>
-                Implementing scalable solutions following clean architecture
-                patterns and best practices.
+                Contribute to technical design discussions, roadmap planning,
+                and architectural decisions, driving end-to-end implementation
+                of new features and their documentation.
             </li>
             <li>
-                Managing deployment pipelines using <strong>GitLab CI/CD</strong
-                > and <strong>Octopus Deploy</strong> for automated releases.
+                Lead improvements in frontend architecture, extending the core
+                library to enable E2E testing for shared components and
+                simplifying test adoption across teams.
             </li>
             <li>
-                Utilizing <strong>Graylog</strong> for centralized logging and application
-                monitoring to ensure system reliability.
+                Operate and coordinate CI/CD and observability workflows,
+                working closely with the infrastructure team while managing
+                releases in <strong>Octopus Deploy</strong> and monitoring systems
+                via <strong>Graylog</strong> and <strong>Grafana</strong>.
             </li>
             <li>
-                Collaborating with distributed teams using agile methodologies
-                to deliver customer-focused features.
+                Enhance engineering productivity by leveraging and creating
+                custom <strong>MCPs (Model Context Protocols)</strong> and exploring
+                data lake solutions with <strong>Databricks</strong>.
             </li>
         </ul>
 
         <p>
-            <strong>Technologies</strong>: .NET, C#, MSSQL, Angular, TypeScript,
-            GitLab, Octopus Deploy, Graylog, Docker
+            <strong>Technologies</strong>: .NET, C#, Angular, TypeScript, MSSQL,
+            GitLab CI/CD, Octopus Deploy, Graylog, Grafana, Clean Architecture,
+            E2E Testing, Databricks, MCPs, Docker
         </p>
 
         <h3>Senior Developer / Tech Lead</h3>
@@ -325,6 +333,40 @@ import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
                 Proposal (NEAR2)
             </li>
         </ul>
+
+        <h2>Key Strengths</h2>
+        <ul>
+            <li>
+                <strong>Customer-First Development</strong>: Proven ability to
+                translate business requirements into flexible, scalable software
+                solutions.
+            </li>
+            <li>
+                <strong>Full Stack Expertise</strong>: Balanced 50/50
+                proficiency in both frontend (Angular, TypeScript) and backend
+                (C#/.NET, NestJS) development.
+            </li>
+            <li>
+                <strong>Leadership & Collaboration</strong>: Experience leading
+                teams, mentoring developers, and working effectively across
+                distributed, multicultural teams.
+            </li>
+            <li>
+                <strong>Cloud & DevOps</strong>: Strong knowledge of
+                containerization (Docker), CI/CD pipelines, and cloud platforms
+                (AWS).
+            </li>
+            <li>
+                <strong>Agile Mindset</strong>: Deep understanding of Scrum and
+                Kanban methodologies with focus on iterative delivery and
+                continuous improvement.
+            </li>
+            <li>
+                <strong>Quality Focus</strong>: Commitment to writing secure,
+                scalable, maintainable code with automated testing and
+                documentation.
+            </li>
+        </ul>
     </div>
 </BaseLayout>
 
@@ -333,6 +375,7 @@ import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
         margin-bottom: 2rem;
         text-align: right;
     }
+
     .btn-print {
         background-color: var(--color-accent);
         color: white;
@@ -348,6 +391,7 @@ import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
         align-items: center;
         gap: 0.5rem;
     }
+
     .btn-print:hover {
         opacity: 0.9;
     }
@@ -356,6 +400,7 @@ import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
         margin-bottom: 0.2rem;
         color: var(--color-text-primary);
     }
+
     .cv-content h3 {
         margin-top: 0;
         font-weight: 400;
@@ -398,6 +443,7 @@ import { Mail, Phone, Linkedin, Github, Download } from "lucide-astro";
         border-bottom: 2px solid transparent;
         transition: all 0.2s ease;
     }
+
     .contact-link:hover {
         color: var(--color-accent);
         border-color: var(--color-accent);
