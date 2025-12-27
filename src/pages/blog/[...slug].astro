@@ -1,10 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
-import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+import { getCollection } from "astro:content";
+import BlogPostLayout from "../../layouts/BlogPostLayout.astro";
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
-  return posts.map(post => ({
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
     params: { slug: post.slug },
     props: { post },
   }));
@@ -12,8 +12,28 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+
+function extractImage(content: string) {
+  if (!content) return undefined;
+
+  // Check for Markdown image
+  const mdImageMatch = content.match(/!\[.*?\]\((.*?)\)/);
+  if (mdImageMatch) {
+    return mdImageMatch[1].split(" ")[0]; // Handle optional title "url title"
+  }
+
+  // Check for HTML image
+  const htmlImageMatch = content.match(/<img[^>]+src=["']([^"']+)["']/);
+  if (htmlImageMatch) {
+    return htmlImageMatch[1];
+  }
+
+  return undefined;
+}
+
+const ogImage = post.data.image || extractImage(post.body);
 ---
 
-<BlogPostLayout {...post.data}>
+<BlogPostLayout {...post.data} image={ogImage}>
   <Content />
 </BlogPostLayout>
