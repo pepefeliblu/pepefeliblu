@@ -1,6 +1,6 @@
 Juan Rueda
 
-Senior Full Stack Engineer
+Software Engineer
 
 Email: dev.rueda@hotmail.com
 
@@ -8,13 +8,13 @@ Phone: +(593) 998 115 960
 
 Location: Quito, Ecuador (Remote)
 
-LinkedIn: linkedin.com/in/juan-rueda-05b245141
+LinkedIn: linkedin.com/in/dev-rueda
 
 GitHub: github.com/pepefeliblu
 
 Professional Proﬁle
 
-Senior Full Stack Engineer with 6+ years of experience building scalable web applications
+Software Engineer with 6+ years of experience building scalable web applications
 
 using  modern  frontend  and  backend  technologies.  Proven  track  record  leading
 
@@ -39,13 +39,13 @@ APIs & Integration: RESTful APIs, WebSockets, JSON/XML, OAuth, JWT
 
 Databases: SQL (PostgreSQL, MySQL, MSSQL), NoSQL (MongoDB)
 
-DevOps & Cloud: Docker, Kubernetes, AWS, GitLab, GitHub, Octopus Deploy, CI/CD
+DevOps & Cloud: Docker, Kubernetes, AWS, GitLab, GitHub, Octopus Deploy, CI/CD, Databricks
 
 pipelines
 
 Tools & Practices: Git, Graylog, TDD, Agile/Scrum/Kanban, Webpack, Bash, Vim
 
-AI Technologies: GitHub Copilot, ChatGPT, prompt engineering for development
+AI Technologies: GitHub Copilot, ChatGPT, Claude, Gemini, MCPs for prompt engineering and development
 acceleration
 
 
@@ -57,29 +57,17 @@ BairesDev - Remote, EC
 
 August 2025 - Present
 
-- Developing full-stack enterprise applications using .NET/C# backend with MSSQL
+- Develop and own enterprise full-stack solutions using .NET/C#, MS SQL Server, and Angular, applying Clean Architecture and best practices for scalability and maintainability.
 
-database and Angular frontend.
+- Contribute to technical design discussions, roadmap planning, and architectural decisions, driving end-to-end implementation of new features and their documentation.
 
-- Implementing scalable solutions following clean architecture patterns and best
+- Lead improvements in frontend architecture, extending the core library to enable E2E testing for shared components and simplifying test adoption across teams.
 
-practices.
+- Operate and coordinate CI/CD and observability workflows, working closely with the infrastructure team while managing releases in Octopus Deploy and monitoring systems via Graylog and Grafana.
 
-- Managing deployment pipelines using GitLab CI/CD and Octopus Deploy for
+- Enhance engineering productivity by leveraging and creating custom MCPs (Model Context Protocols) and exploring data lake solutions with Databricks.
 
-automated releases.
-
-- Utilizing Graylog for centralized logging and application monitoring to ensure system
-
-reliability.
-
-- Collaborating with distributed teams using agile methodologies to deliver
-
-customer-focused features.
-
-Technologies: .NET, C#, MSSQL, Angular, TypeScript, GitLab, Octopus Deploy, Graylog,
-
-Docker
+Technologies: .NET, C#, Angular, TypeScript, MSSQL, GitLab CI/CD, Octopus Deploy, Graylog, Grafana, Clean Architecture, E2E Testing, Databricks, MCPs , Docker
 
 Senior Developer / Tech Lead
 
