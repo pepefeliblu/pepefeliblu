@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import astroExpressiveCode from 'astro-expressive-code';
 import rehypeExternalLinks from 'rehype-external-links';
 import sitemap from '@astrojs/sitemap';
 
@@ -22,5 +23,18 @@ export default defineConfig({
         ]
     },
 
-    integrations: [react(), sitemap()]
+    integrations: [
+        astroExpressiveCode({
+            themes: ['github-light', 'github-dark'],
+            themeCssSelector: (theme) => theme.name === 'github-dark' ? '.dark' : ':root',
+            styleOverrides: {
+                borderRadius: '0.5rem',
+                frames: {
+                    frameBoxShadowCssValue: 'none',
+                }
+            }
+        }),
+        react(),
+        sitemap()
+    ]
 });
