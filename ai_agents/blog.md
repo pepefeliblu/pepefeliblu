@@ -2,24 +2,11 @@
 
 This file outlines the definitive blueprint for building final blog entries. Follow this structure strictly.
 
-## 1. Frontmatter
-Always use this exact structure. `author` is fixed.
-> [!IMPORTANT]
-> The block **MUST** start with `---` on the very first line of the file.
-
-```yaml
----
-title: "Insert Title Here"
-pubDate: YYYY-MM-DD
-description: "Insert engaging description here"
-author: "Juan Rueda"
-tags: ["relevant", "tags", "kebab-case"]
-published: true # Optional: defaults to true if omitted, set to false to draft
-canonical_url: "https://pepefeliblu.github.io/pepefeliblu/blog/slug" # Optional: strictly for dev.to or cross-posting
----
-```
-> [!NOTE]
-> `author` and `pubDate` are automatically mapped to `<meta name="author">` and `<meta property="article:published_time">` respectively, as per [SEO Guidelines](seo.md).
+The frontmatter schema is enforced by `src/content/config.ts`. Key rules:
+- `author` is always `"Juan Rueda"` unless explicitly specified otherwise
+- `published` defaults to `true`; set to `false` to draft
+- `canonical_url` is optional, strictly for dev.to or cross-posting
+- The block **MUST** start with `---` on the very first line of the file
 
 
 ## 2. Visual Hook (The Cover)
@@ -43,7 +30,6 @@ canonical_url: "https://pepefeliblu.github.io/pepefeliblu/blog/slug" # Optional:
 ## 3. Structural Elements
 Use the structure of the *Google DevFest Quito* post as the absolute standard.
 
-### A. Intro
 ### A. Intro
 - **Respect Original Text**: Assume the provided blog entry already has a strong hook and thesis.
 - **Review Policy**: Do **NOT** rewrite the intro automatically. If you believe it can be improved, **prompt a change suggestion** to the user first.
