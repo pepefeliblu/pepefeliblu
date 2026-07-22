@@ -12,7 +12,7 @@ The frontmatter schema is enforced by `src/content/config.ts`. Key rules:
 ## 2. Visual Hook (The Cover)
 - **Placement**: Immediately after frontmatter.
 - **Structure**: `<figure>` with `style="text-align: center;"`.
-- **Image**: `<img>` tags should be adjusted to fit the specific image provided. Common defaults are `width="500"`, `border-radius: 10px`, and `display: block; margin: 0 auto;`, but these are not mandatory. Please analyze the image for optimal fit and sizing.
+- **Image**: Use the exact same `<img>` markup as existing posts: `width="500"`, `border-radius: 10px`, `display: block; margin: 0 auto;`. This is **mandatory** regardless of the image's aspect ratio or dimensions. Visual consistency across entries takes priority over per-image optimization. If a deviation seems genuinely better for a specific image, propose it to the user and wait for approval before applying it.
   > [!WARNING]
   > **Verification Required**: You MUST verify that the image path exists in the filesystem (triggers a 200 OK) before referencing it. Use local paths (e.g., `/pepefeliblu/images/blog/...`).
 - **Caption**: `<figcaption>` with `font-size: 0.9em; color: #666;`.
