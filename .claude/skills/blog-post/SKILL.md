@@ -56,6 +56,9 @@ Immediately after frontmatter, add a `<figure>` block. The caption should be qui
 
 Before referencing any image path, verify it exists in the filesystem. If no image exists yet, leave the `<figure>` block with a `TODO` comment and tell the user they need to add an image.
 
+> [!IMPORTANT]
+> **Use the markup above exactly as written.** Every post on the site uses `width="500"` with these exact styles; visual consistency across entries beats per-image optimization. Do NOT change the width, styles, or layout based on the image's aspect ratio or your own judgment. If you genuinely believe a deviation would look better, propose it to the user and wait for approval. Never apply it unprompted.
+
 #### Body Structure
 
 - **Intro paragraph**: Sets the scene and states the thesis immediately. Do not pad with filler.
@@ -92,16 +95,21 @@ Before finalizing, verify:
 
 ### Step 4: Generate cover image prompt
 
-After writing the post, generate a prompt the user can paste into an AI image generator (Midjourney, DALL-E, etc.) to create the cover image. The prompt should:
+After writing the post, generate a prompt the user can paste into an AI image generator (Midjourney, DALL-E, etc.) to create the cover image.
 
-- Match the post's theme and core concept
-- Aim for a clean, minimal aesthetic that fits the "Digital Moleskine" design philosophy (creamy tones, soft textures, no cluttered compositions)
-- Avoid text in the image (AI image generators handle text poorly)
-- Be specific enough to produce a usable result on the first try
+The cover is the visual hook: it must hit the reader emotionally before they read a single word. Never produce a flat "minimal illustration of X" prompt. Build a full scene, the way a children's book illustrator would: a character or subject caught mid-moment, doing something, feeling something, in a place.
 
-**Example format:**
+Every prompt MUST include all of these layers:
+
+1. **Style**: whimsical children's book illustration, hand-painted feel (gouache/watercolor texture, visible brushwork, storybook quality). Keep the "Digital Moleskine" palette: warm creamy paper tones, burnt orange accents, soft muted secondary colors.
+2. **Scene & story**: a concrete narrative moment that embodies the post's core tension, not a symbol of the topic. Describe who/what is in the scene, what they are doing, and the emotion on display (frustration, wonder, hesitation). One clear focal point.
+3. **Composition**: explicit camera/layout direction: viewing angle, foreground/midground/background, where the focal subject sits, use of negative space, depth. Landscape orientation (3:2 or 16:9) since it renders as a wide blog cover.
+4. **Lighting & atmosphere**: time of day, light quality (soft lamplight, late-afternoon sun through a window), mood.
+5. **Negative constraints**: always end with: no text, no letters, no numbers, no logos, no photorealism.
+
+**Example (for a post about confusing sticker album design):**
 ```
-A minimal illustration of [core concept], [style descriptors], warm creamy tones with burnt orange accents, clean composition, no text, editorial illustration style
+Whimsical children's book illustration, hand-painted gouache texture with soft watercolor edges. Scene: a small boy kneels on a living room rug, hunched over an open sticker album almost as big as he is, holding a soccer sticker in mid-air with a worried frown, unable to tell which of two identical-looking slots it belongs to. Scattered sticker packets and a mug sit around him on the rug. Composition: low camera angle at the boy's eye level, album filling the foreground, boy as the focal point slightly right of center, cozy blurred living room in the background, generous negative space in the upper third. Lighting: warm late-afternoon sunlight slanting through a window, soft shadows, nostalgic mood. Palette: warm creamy paper tones, burnt orange and terracotta accents, muted olive greens. Landscape 3:2. No text, no letters, no numbers, no logos, no photorealism.
 ```
 
 Present the prompt to the user and let them know this step is manual.
