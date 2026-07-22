@@ -19,7 +19,7 @@ export async function GET(context) {
             description: post.data.description,
             author: post.data.author,
             categories: post.data.tags,
-            link: `/pepefeliblu/blog/${post.slug}/`,
+            link: `/pepefeliblu/blog/${post.id}/`,
             content: sanitizeHtml(parser.render(post.body), {
                 allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'figure', 'figcaption'])
             }),
