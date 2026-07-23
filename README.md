@@ -10,7 +10,7 @@
 ---
 
 ## ⚡ TL;DR
-Senior Engineer with **6+ years** of experience building scalable enterprise and fintech platforms.
+Senior Engineer with **7+ years** of experience building scalable enterprise and fintech platforms.
 *   **Builder**: Architect complex full-stack systems and managed **6 engineers** (StickerStoke).
 *   **Impact**: Contributed directly to **$1M+ USD revenue** (OpcionAuto) through UX/UI overhauls.
 *   **Focus**: Angular, NestJS, .NET, Clean Architecture.
