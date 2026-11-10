@@ -53,3 +53,8 @@ Check out **[pepefeliblu](https://github.com/pepefeliblu/pepefeliblu)** (this re
   <b>Open for Engineering Leadership & Senior Individual Contributor roles.</b><br/>
   <a href="mailto:dev.rueda@hotmail.com">Get in touch</a>
 </p>
+
+<p align="right">
+  <sub><i>— last page of the notebook —</i></sub><br/>
+  <img src="https://komarev.com/ghpvc/?username=pepefeliblu&label=pages%20turned&color=E85F3A&style=flat-square" alt="Profile views counter for pepefeliblu" />
+</p>
